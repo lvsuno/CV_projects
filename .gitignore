@@ -1,0 +1,30 @@
+# created by virtualenv automatically
+__pycache__/
+.ipynb_checkpoints/
+data/
+visualization/
+training_checkpoints/
+Mask_detection/annotations/
+Mask_detection/images/
+Mask_detection/runs/
+Mask_detection/wandb/
+Mask_detection/yolov7/
+Mask_detection/yolov8/
+
+style/
+Classification_cat_dog/test/
+Classification_cat_dog/train/
+Image_classification_from_scratch/BinaryClassification/data/
+Image_classification_from_scratch/MulticlassClassification/test/
+Image_classification_from_scratch/MulticlassClassification/train/
+hidden_cv/
+Camera Identification/data/
+Image Compression with Autoencoders/data/
+Image Compression with Autoencoders/model_state_dict_128.pth
+Image Compression with Autoencoders/model_state_dict_256.pth
+Image Compression with Autoencoders/model_state_dict_512.pth
+Image Compression with Autoencoders/model_state_dict_1024.pth
+Image Captioning/Flicker8k_Dataset/
+Image Captioning/Flickr8k_text/
+Image Captioning/features.pkl
+Image Captioning/.idea/

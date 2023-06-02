@@ -20,7 +20,7 @@ test_features = load_photo_features('features_EfficientNetV2M.pkl', test)
 print(f'Photos: train= {len(test_features)}')
 
 #%% Load the model
-filename = 'model_EfficientNetV2M_gru1.h5'
+filename = 'model_EfficientNetV2M_gru2.h5'
 model = load_model(filename)
 # evaluate model
 with tf.device('/cpu:0'):

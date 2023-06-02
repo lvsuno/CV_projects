@@ -24,7 +24,7 @@ with open('tokenizer_maxlength.pkl', 'rb') as f:
     tokenizer, max_length = load(f)
 
 # Load captioning model
-model = load_model('model_EfficientNetV2M_gru1.h5')
+model = load_model('model_EfficientNetV2M_gru2.h5')
 
 with tf.device('/cpu:0'):
     description = generate_desc(model, tokenizer, feature, max_length)

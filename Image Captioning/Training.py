@@ -50,7 +50,7 @@ X1test, X2test, y_test = create_sequences(tokenizer, max_length, val_description
 #%% Define model
 model = define_model(vocab_size, max_length)
 # define checkpoint callback
-checkpoint = ModelCheckpoint('model_EfficientNetV2M_gru1.h5', monitor='val_loss', verbose=1, save_best_only=True, mode='min')
+checkpoint = ModelCheckpoint('model_EfficientNetV2M_gru2.h5', monitor='val_loss', verbose=1, save_best_only=True, mode='min')
 # fit model
 with tensorflow.device('/cpu:0'):
     model.fit([X1train, X2train], y_train, epochs=20, verbose=1, callbacks=[checkpoint], validation_data=([X1test, X2test], y_test))

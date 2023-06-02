@@ -34,4 +34,6 @@ Image Captioning/tokenizer_maxlength.pkl
 Image Captioning/model_vgg16_lstm.h5
 Image Captioning/model_EfficientNetV2M_lstm.h5
 Image Captioning/model_EfficientNetV2M_gru1.h5
+Image Captioning/model_EfficientNetV2M_gru2.h5
 Image Captioning/.idea/
+Image Captioning/__pycache__/

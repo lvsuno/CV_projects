@@ -26,5 +26,12 @@ Image Compression with Autoencoders/model_state_dict_512.pth
 Image Compression with Autoencoders/model_state_dict_1024.pth
 Image Captioning/Flicker8k_Dataset/
 Image Captioning/Flickr8k_text/
-Image Captioning/features.pkl
+Image Captioning/features_VGG16.pkl
+Image Captioning/features_VGG19.pkl
+Image Captioning/features_EfficientNetV2M.pkl
+Image Captioning/model_vgg19_lstm.h5
+Image Captioning/tokenizer_maxlength.pkl
+Image Captioning/model_vgg16_lstm.h5
+Image Captioning/model_EfficientNetV2M_lstm.h5
+Image Captioning/model_EfficientNetV2M_gru1.h5
 Image Captioning/.idea/
